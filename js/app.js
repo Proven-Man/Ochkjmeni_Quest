@@ -45,10 +45,12 @@ FirstCodeSendbtn.addEventListener("click", (e) => {
     var surpriseImages = document.getElementsByName('surpriseImages')
     surpriseImages.forEach(element => {
         if (FirstCode.value == 'Sovok' && element.id == "Sovok") { element.style = "display: inline;"; }
-        else if (FirstCode.value == 'LUFTWAFFE' && element.id == "LUFTWAFFE") { element.style = "display: inline;"; }
-        else if (FirstCode.value == 'Panzerkampf' && element.id == "Panzerkampf") { element.style = "display: inline;"; }
-        else if (FirstCode.value == 'Rommel_Fuel' && element.id == "Rommel_Fuel") { element.style = "display: inline;"; }
+       else if (FirstCode.value == 'Rommel_Fuel' && element.id == "Rommel_Fuel") { element.style = "display: inline;"; }
         else if (FirstCode.value == 'Hussars_Blyad' && element.id == "Hussars_Blyad") { element.style = "display: inline;"; }
+        else if (FirstCode.value == 'Lubov_Moya' && element.id == "Lubov_Moya") { element.style = "display: inline;"; }
+        else if (FirstCode.value == 'Guki_Povsydu' && element.id == "Guki_Povsydu") { element.style = "display: inline;"; }
+        else if (FirstCode.value == 'Deus_Vult' && element.id == "Deus_Vult") { element.style = "display: inline;"; }
+        else if (FirstCode.value == 'Phill_Swift' && element.id == "Phill_Swift") { element.style = "display: inline;"; }
         else if (FirstCode.value == 'Panzer_chocolate' && element.id == "Panzer_chocolate") {
             element.style = "display: inline;";
             document.getElementsByName('FirstCodeNextbtnDisplay')[0].style = "display: inline;";
