@@ -1,0 +1,29 @@
+
+.topmenu > li {
+  display: inline-block;
+}
+a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+}
+.submenu {
+  position: absolute;
+  z-index: 10;
+}
+.one .submenu {
+  display: none;
+}
+.one ul li:hover .submenu {
+  display: block;
+}
+.one ul {
+    background: rgb(27, 39, 51);
+    display: inline-block;
+  }
+  .one ul a {
+    color: rgb(177, 187, 196);
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 25px;
+  }
