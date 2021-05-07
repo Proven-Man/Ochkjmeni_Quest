@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quest</title>
+    <title>For you</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -14,178 +14,136 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body style="background-color: rgb(22, 22, 22)">
-    <div name="FirstRow" class="container-fluid" style="padding-bottom: 25px;">
-        <div class="row">
-            <div class="disclaimer">DISCLAIMER!</div>
-            <div class="col col-12">
-                <table style="color: rgb(173, 173, 171); font-family: 'Roboto', sans-serif;">
-                    <tr>
-                        <td>
-                            <ol>
-                                <li>
-                                    Организаторы не несут ответственность за вашу жизнь, безопасность и моральное
-                                    состояние.
-                                </li>
-                                &nbsp;
-                                <li>
-                                    Слова и действия организаторов могут вызывать крайнее раздражение, однако большая
-                                    просьба не наносить им вреда. Они вам еще пригодятся.
-                                </li>
-                                &nbsp;
-                                <li>
-                                    Вы не имеете права не получить удовольствие от подарка, ведь это приведет как
-                                    минимум
-                                    трех людей к депрессии плавно переходящей в злость.(А учитывая тот факт, что двое из
-                                    них
-                                    на стороне Совка, исторически так сложилось, что у вас, как у нациста, шансов на
-                                    выживание
-                                    мало)
-                                </li>
-                            </ol>
-                        </td>
-                    </tr>
-                </table>
+    <div class="container-fluid">
+        <div class="row" style="position: fixed;
+            background-color: white;
+            width: max-content;
+            text-align: center;
+            padding: 5px;
+            background-color: rgb(27, 39, 51);">
+            <nav class="one">
+                <ul class="topmenu">
+                    <li>
+                        <a href="#">Menu</a>
+                        <ul class="submenu">
+                            <div><a href="#logo">Логотип</a></div>
+                            <div><a href="#congratulation">Поздравление</a></div>
+                            <div><a href="#gallery">Галерея</a></div>
+                            <div><a href="#admin">Лично от админа</a></div>
+                            <div><a href="#feedback">Контакты</a></div>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <a name="logo"></a>
+        <div class="row" style="color: rgb(177, 187, 196);
+         background-color: rgb(35, 46, 56);
+         vertical-align: middle;
+         height: 750px;
+         text-align: center;">
+            <div style="margin-top: 230px;">
+                <img style="height: 350px;" src="images/Untitled-9.png">
             </div>
         </div>
-        <div class="row">
-            <div class="instruction">Instruction</div>
-            <div class="col col-12">
-                <table style="color: rgb(173, 173, 171); font-family: 'Roboto', sans-serif;">
-                    <tr>
-                        <td>
-                            <ol>
-                                <li>
-                                    Следуйте по сюжету и старайтесь не принимать решения которые его разрушат.(Он и так
-                                    держится на честном слове и вере в фюрера)
-                                </li>
-                                &nbsp;
-                                <li>
-                                    Введите код в специальное поле чтобы продвинутся дальше.
-                                </li>
-                                &nbsp;
-                                <li>
-                                    Просто наслаждайтесь ведь финал вам понравится.
-                                </li>
-                            </ol>
-                        </td>
-                    </tr>
-                </table>
+        <a name="congratulation"></a>
+        <div class="row" style="color: rgb(177, 187, 196);
+         background-color: rgb(27, 39, 51);
+         vertical-align: middle;
+         text-align: justify;
+         padding-top: 25px;">
+                     <div class="col">
+                        Маша, чуть больше года назад ты была нашей одноклассницей и человеком, который просто делал нам биологию, а сейчас ты неотъемлемая часть нашей психушки.
+                    </div>
+            <div class="col">
+                <img style="width: 100%;" src="images/Тетрадь с ручкой.png">
             </div>
         </div>
-        <div class="row" style="padding-top: 40px;">
-            <table>
-                <tr>
-                    <td class="text">
-                        Я соглашаюсь со всеми условиями
-                    </td>
-                    <td>
-                        <input name="checkboxLicense" type="checkbox" value="Agree">
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="row">
-            <a style="text-align:right;" href="license.html">Пользовательское соглашение</a>
-        </div>
-        <div class="row">
-            <div class="col col-2"></div>
-            <div class="col col-4">
-                <button class="btn" name="submit_btn">
-                    Продолжить
-                </button>
-            </div>
-            <div class="col col-8"></div>
-        </div>
-    </div>
-    <div name="SecondRow" style="display: none;">
-        <div class="container-fluid" style="padding-top: 40%;">
-            <div class="begin"><b>Step 1 </b></div>
-            <div class="text1">Итак, тут все просто. У тебя 10 кодов. Только один подходит. Введешь неправильный ничего
-                не будет (или же тебя сотрет с лица земли ядерной боеголовкой, но не суть)</div>
-            <div style="text-align: center; padding-top: 20px;">
-                <input class="placeholder" type="text" name="FirstCode" placeholder="Введи уже что нибудь" />
-            </div>
-            <div style="text-align: center; padding-top: 10px;">
-                <button class="button" name="FirstCodeSendbtn"><b>Send</b></button>
-            </div>
-            <div id="Sovok" name="surpriseImages" style="display: none;">
-                <img style="width: 100%; padding-top: 20px;" src="images/7eae8fb26a2d747d93f7ecd7220cc681.png">
+        <div class="row" style="color: rgb(177, 187, 196);
+        background-color: rgb(27, 39, 51);
+        vertical-align: middle;
+        text-align: justify;
+        padding-bottom: 25px;">
+                    <div class="col">
+                        <img style="width: 100%;" src="images/Пишущая ручка.jpg">
+                    </div>
+            <div class="col">
+                Мы очень рады этому и хотели бы поздравить тебя с днем рождения. Желаем тебе быть счастливой и самой собой.<p style="float: right;font-size: 12px;"><br>p.s. Не будь fucking slave.</p>
             </div>
 
-            <div id="Rommel_Fuel" name="surpriseImages" style="display: none;">
-                <div>Роммеля не будет, снабжение приняло ислам.</div>
+        </div>
+        <a name="gallery"></a>
+        <div class="row" style="padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: rgb(35, 46, 56);
+        color: rgb(177, 187, 196);
+        text-align: center;">
+            <div class="col">
+                <h3>Мужчины</h3>
+                 <img name="simpleImages" src="images/Leather man.jpg" style="width: 100%;">
+                 <img name="simpleImages" src="images/Бомбер.png" style="width: 100%;">
+                 <img name="simpleImages" src="images/Спецназ.jpg" style="width: 100%;">
+                 <img name="simpleImages" src="images/Пилот.jpg" style="width: 100%;">
+                 <img name="simpleImages" src="images/Немецкий боец.jpg" style="width: 100%;">
+
+                <img id="LeatherMan" name="funnyImages" src="images/LeatherMan.png" style="width: 100%;display: none;">
+                 <img id="Bomber" name="funnyImages" src="images/Bomber.png" style="width: 100%;display: none;">
+                 <img id="Spetz" name="funnyImages" src="images/Спецназ.jpg" style="width: 100%;display: none;">
+                 <img id="Pilot" name="funnyImages" src="images/Pilot.png" style="width: 100%;display: none;">
+                 <img id="PolitovPots" name="funnyImages" src="images/PolitovPots.png" style="width: 100%;display: none;">
             </div>
-            <div id="Hussars_Blyad" name="surpriseImages" style="display: none;">
-                <img style="width: 100%;" src="images/photo_2021-04-10_01-37-50.jpg">
-            </div>
-            <div id="Panzer_chocolate" name="surpriseImages" style="display: none;">
-                <div>
-                    <div class="text2">Поздравляю с выбором правильного кода.Иди к месту где всегда тепло и периодически
-                        слышны крики.</div>
+            <div class="col" style="margin-top: 100px;">
+                <h3>Женщины</h3>
+                 <img src="images/Парад.jpg" style="width: 100%;">
+                 <img src="images/Девушка пилот.jpg" style="width: 100%;">
+                 <img src="images/Девушка спецназ черный.jpg" style="width: 100%;">
+                 <img src="images/Девушка спецназ серый.jpg" style="width: 100%;">
+                <div style="margin-top: 70px;">
+                    <input name="checkboxFunnyImages" type="checkbox"> Включить режим гука
                 </div>
-
-            </div>
-
-            <div id="Lubov_Moya" name="surpriseImages" style="display: none;">
-                <img style="width: 100%; padding-top: 20px; padding-bottom: 20px;" src="images/photo_2021-04-10_01-26-43.jpg">
-            </div>
-            <div id="Guki_Povsydu" name="surpriseImages" style="display: none;">
-                <div class="text3"> Видишь гука? А он есть.</div>
-            </div>
-            <div id="Deus_Vult" name="surpriseImages" style="display: none;">
-                <img style="width: 100%; padding-top: 20px; padding-bottom: 20px;" src="images/ad1153b2290ddd815d30ff7fdc6421ab.jpg">
-            </div>
-            <div id="Phill_Swift" name="surpriseImages" style="display: none;">
-                <img style="width: 100%; padding-top: 20px; padding-bottom: 20px;" src="images/photo_2021-04-10_01-29-13.jpg">
-            </div>
-            
-            <div id="otto_fon_bismark" name="surpriseImages" style="display: none;">
-                <img style="width: 100%;" src="images/photo_2021-04-10_01-46-49.jpg">
-            </div>
-            <div id="Ass_baton" name="surpriseImages" style="display: none;">
-                <img style="width: 100%; padding-top: 20px;" src="images/photo_2021-02-04_18-58-52.jpg">
-            </div>
-            <div name = "FirstCodeNextbtnDisplay" style="display: none;">
-            <div style="text-align: center; padding-top: 10px;">
-                <button class="button" name="FirstCodeNextbtn">
-                    <b>
-                        Next
-                    </b>
-                </button>
-            </div>
             </div>
         </div>
-    </div>
-    <div name="ThirdRow" style="display: none;">
-        <div class="container-fluid" style="padding-top: 40%;">
-            <div class="begin"><b>Step 2 </b></div>
-            <div class="text1">Найди гука и получишь следующий код</div>
-
-            <div style="text-align: center; padding-top: 20px;">
-                <input class="placeholder" type="text" name="SecondCode" placeholder="Введи уже что нибудь" />
+        <a name="admin"></a>
+        <div class="row" style="color: rgb(177, 187, 196);
+         background-color: rgb(27, 39, 51);
+         vertical-align: middle;
+         text-align: center;
+         padding-top: 25px;
+         padding-bottom: 25px;">
+         <input name="AdminPassword" type="password" placeholder="Enter your password">
+         <button name="AdminPasswordSendBtn" style="background-color: rgb(35, 46, 56);color: rgb(177, 187, 196);">Send</button>
+         <div name = "adminCongr" style="display: none; text-align: center;">
+            <h2>Для тебя, любимая</h2>
+            <div class="row">
+            <div class="col">
+                <img src="images/e103e3952016cb073115ea898f19a73f.jpeg" style="width: 100%;"/>
             </div>
-            <div style="text-align: center; padding-top: 10px;">
-                <button class="button" name="SecondCodeSendbtn"><b>Send</b></button>
+            <div class="col">
+                Я хочу пожелать тебе прожить долгую и счастливую жизнь, за которую будет не стыдно). Также я хотел бы попросить тебя как можно чаще улыбаться, ведь твоя улыбка делает меня счастливым.
             </div>
         </div>
-    </div>
-
-    <div name="FourthRow" style="display: none;">
-        <div class="container-fluid" style="padding-top: 40%;">
-            <div class="begin"><b>Step 3 </b></div>
-            <div class="text1">Император ждет тебя и возможно будет достаточно благосклонен, чтобы дать финальный код
-            </div>
-
-            <div style="text-align: center; padding-top: 20px;">
-                <input class="placeholder" type="text" name="ThirdCode" placeholder="Введи уже что нибудь" />
-            </div>
-            <div style="text-align: center; padding-top: 10px;">
-                <button class="button" name="ThirdCodeSendbtn"><b>Send</b></button>
-            </div>
-            <div id="hirohito" name="surpriseImages" style="display: none;">
-                <img style="width: 100%;" src="images/photo_2021-04-10_01-49-02.jpg">
-            </div>
+         </div>
+        </div>
+        <a name="feedback"></a>
+        <div class="row" style="padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: rgb(35, 46, 56);
+        color: rgb(177, 187, 196);
+        ">
+        <div class="col" style="text-decoration: none;">
+            <a style="color: rgb(177, 187, 196);" href="https://instagram.com/_boooreed_?igshid=165up5x8hm1jy"><img src="images/instagram-new--v1.png" style="width: 30px; margin-right: 5px;">_boooreed_</a>
+            <a style="color: rgb(177, 187, 196);" href="https://instagram.com/maksym.reznik?igshid=gjdqgwk8rset"><img src="images/instagram-new--v1.png" style="width: 30px; margin-right: 5px;">maksym.reznik</a>
+            <a style="color: rgb(177, 187, 196);" href="https://instagram.com/stecenko.maxim?igshid=udzvqlhiri7w"><img src="images/instagram-new--v1.png" style="width: 30px; margin-right: 5px;">stecenko.maxim</a>
+            <a style="color: rgb(177, 187, 196);" href="https://instagram.com/kirillshveds?igshid=166vtl6wlxqfe"><img src="images/instagram-new--v1.png" style="width: 30px; margin-right: 5px;">kirillshveds</a>
+        </div>
+        <div class="col">
+            <a style="color: rgb(177, 187, 196);" href="https://instagram.com/_an4rchist2_?igshid=108p4rwv1u6o"><img src="images/instagram-new--v1.png" style="width: 30px; margin-right: 5px;">_an4rchist2_</a>
+            <a style="color: rgb(177, 187, 196);" href="https://instagram.com/cova_nochnaia?igshid=13dylxrs4bcrj"><img src="images/instagram-new--v1.png" style="width: 30px; margin-right: 5px;">cova_nochnaia</a>
+            <a style="color: rgb(177, 187, 196);" href="https://instagram.com/femenist_hunter?igshid=1nyqg7bwoocgb"><img src="images/instagram-new--v1.png" style="width: 30px; margin-right: 5px;">femenist_hunter</a>
+            <a style="color: rgb(177, 187, 196);" href="https://instagram.com/your.sdnss?igshid=jrg385f9ubp4"><img src="images/instagram-new--v1.png" style="width: 30px; margin-right: 5px;">your.sdnss</a>
+        </div>
         </div>
     </div>
     <script src="js/app.js"></script>
